@@ -1,0 +1,108 @@
+body {
+display: block;
+font-size: 1.4rem;
+line-height: 1.4;
+margin: 0;
+max-width: 1500px;
+}
+#main {
+ display: block;
+ margin: 20px 80px;
+ padding: 10px;
+}
+#title {
+text-align:center;
+margin-top: 20px;
+}
+#img-div {
+text-align: center;
+background-color: #F4F5F5;
+border-color: #F4F5F5;
+border-width: 2px;
+border-style: solid;
+border-radius:5px;
+}
+#image {
+width: 100%;
+height: auto;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+#img-caption {
+  font-family: Monospace, sans-serif;
+  font-style: italic;
+  text-align: left;
+  padding: 5px;
+}
+h2 {
+text-align:center;
+}
+ul {
+background-color: #F4F5F5;
+border-color: #F4F5F5;
+border-width: 2px;
+border-style: solid;
+border-radius:5px;
+}
+#memoirs {
+font-family: Monospace, sans-serif;
+font-style: italic;
+margin-left: 450px;
+text-align: right;
+margin-right: 20px;
+}
+#tribute-info {
+display: block;
+ margin: 20px 80px;
+padding: 10px;
+}
+#moreinfo {
+text-align: center;
+background-color: #F4F5F5;
+margin: 40px auto;
+padding: 5px;
+font-weight: bold;
+border-radius:5px;
+}
+@media all and (max-width: 600px) {
+  #main {
+font-size: 1.2rem;
+margin: 10px 40px;
+padding: 5px;
+}
+  #img-caption {
+font-size: 0.9rem;
+}
+  #title {
+font-size: 1.9rem;
+}
+  #tribute-info {
+font-size: 1.2rem;
+margin: 10px 40px;
+padding: 5px;
+}
+  h2 {
+font-size: 1.5rem;
+}
+#memoirs {
+margin-left: 100px;
+text-align: right;
+margin-right: 10px;
+font-size: 0.9rem;
+}
+  #moreinfo {
+margin: 20px auto;
+padding: 2px;
+font-size: 1.2rem;
+}
+}
+ 
+
+
+
+
+
+
+
